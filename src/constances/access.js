@@ -1,0 +1,1 @@
+export const access = '1337';

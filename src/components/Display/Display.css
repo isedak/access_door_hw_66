@@ -1,0 +1,87 @@
+.Display-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+    padding: 20px;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-shadow: inset 2px 3px 2px rgba(0, 0, 0, 0.75),
+        inset -2px -3px 2px rgba(255, 255, 255, 0.2);
+}
+
+.result-row {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-text {
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-align: center;
+    transition: 0.3s ease-out;
+    text-transform: uppercase;
+}
+
+.green {
+    color: rgb(230, 252, 208);
+    text-shadow: 0 0 5px rgb(127, 255, 0),
+        0 0 2px rgb(41, 73, 8),
+        0 0 20px rgb(127, 255, 0),
+        0 0 40px rgb(127, 255, 0);
+}
+
+.red {
+    color: rgb(250, 209, 209);
+    text-shadow: 0 0 10px red,
+        0 0 20px red,
+        0 0 30px red,
+        0 0 40px red;
+}
+
+@media screen and (min-width: 320px) {
+    .Display-box {
+        height: 90px;
+    }
+
+    .display-text {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .Display-box {
+        height: 120px;
+    }
+
+    .display-text {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .Display-box {
+        height: 154px;
+    }
+
+    .display-text {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Display-box {
+        height: 215px;
+    }
+
+    .display-text {
+        font-size: 45px;
+    }
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+}
+
+.App-background {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-image: url("assets/img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,72 @@
+.Panel-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../assets/img/panel-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 600px;
+    height: 720px;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.Panel-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.Buttons-box {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) {
+    .Panel-box {
+        gap: 15px;
+    }
+
+    .Buttons-box {
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .Panel-box {
+        gap: 20px;
+    }
+
+    .Buttons-box {
+        gap: 15px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .Panel-box {
+        padding: 20px 30px 20px 30px;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    .Panel-box {
+        padding: 20px 40px 20px 40px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .Panel-box {
+        gap: 20px;
+        padding: 20px 50px 20px 50px;
+    }
+
+    .Buttons-box {
+        gap: 15px;
+    }
+}
